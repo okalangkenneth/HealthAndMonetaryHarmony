@@ -1,0 +1,30 @@
+{
+  "profiles": {
+    "HealthAndMonetaryHarmony": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PANGEA_DOMAIN": "aws.eu.pangea.cloud",
+        "AUTHN_AUTH_TOKEN": "pts_ef6hgd6hd5rp22omzn2z5czkklbxyxmz"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7004;http://localhost:5002"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:19001",
+      "sslPort": 44332
+    }
+  }
+}
